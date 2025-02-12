@@ -127,7 +127,6 @@ const Navbar = () => {
       <SheetDescription>
         <div className="flex flex-col gap-6">
           <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-          <Link href="/about" onClick={() => setOpen(false)}>Portfolio</Link>
           <Link href="/blog" onClick={() => setOpen(false)}>Blog</Link>
           <Link href="/profile" onClick={() => setOpen(false)}>Profile</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
